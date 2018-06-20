@@ -1,6 +1,7 @@
 body{
     background-color: #0287FD;
     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #main{
@@ -38,11 +39,14 @@ body{
 #title{
     align-content: center;
     text-align: center;
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 #img-div{
     background: #E2E2E2;
+    margin: 0px 20px 0px 20px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,11 +61,23 @@ body{
 }
 
 #img-caption{
-
+    margin: 10px 0px 10px 0px;
 }
 
 #tribute-info{
     display: flex;
     flex-direction: column;
     text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+
+    background-color: black;
+
+    height: 50px;
+
+    text-align: center;
+    color: white;
 }
